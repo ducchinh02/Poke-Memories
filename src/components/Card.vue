@@ -68,6 +68,8 @@ export default {
   cursor: pointer;
   border: unset;
   border-radius: 1rem;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
   &_inner {
     width: 100%;
     padding-top: 180%;
@@ -112,6 +114,7 @@ export default {
   &.matched {
     pointer-events: none;
     cursor: default;
+    opacity: 0;
   }
 }
 </style>
